@@ -8,6 +8,7 @@
 - Windows 操作系统（建议）
 - 浏览器驱动（如 geckodriver for Firefox）
 - 推荐使用虚拟环境
+- 微信你得有微信公众平台账号，可以去[微信公众平台](https://mp.weixin.qq.com/)注册
 
 ## 3. 安装与配置步骤
 1. 克隆本项目到本地  
@@ -82,7 +83,7 @@ Wechat_official_clawler/
 ## 11. 联系方式或作者信息
 - 作者：CutePigdaddy
 - 邮箱：2257601068@qq.com
-- GitHub: [https://github.com/CutePigdaddy]
+- GitHub: [CutePigdaddy](https://github.com/CutePigdaddy)
 
 ---
 
