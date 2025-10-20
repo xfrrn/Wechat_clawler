@@ -13,7 +13,7 @@
 ## 3. 安装与配置步骤
 1. 克隆本项目到本地  
    ```
-   git clone <your-repo-url>
+   git clone https://github.com/CutePigdaddy/Wechat_official_clawler
    cd Wechat_official_clawler
    ```
 2. 安装依赖  
