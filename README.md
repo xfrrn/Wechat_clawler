@@ -87,4 +87,10 @@ Wechat_official_clawler/
 
 ---
 
+## 特别鸣谢
+
+本项目部分思路和实现参考了 [rachelos/we-mp-rss](https://github.com/rachelos/we-mp-rss) 项目，特此致谢！
+
+---
+
 如需补充具体内容或修改，请随时告知！
