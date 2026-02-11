@@ -2,7 +2,7 @@
 
 ## 1. 项目简介
 
-本项目用于最轻量化（我不管你怎么报错了哈哈）自动化登录微信公众平台，抓取公众号信息和文章内容，并支持数据持久化存储。适合数据采集、内容分析等场景。仅供学习使用。
+本项目用于最轻量化自动化登录微信公众平台，抓取公众号信息和文章内容。适合数据采集、内容分析等场景。仅供学习使用。
 
 ## 2. 环境要求
 
@@ -60,20 +60,14 @@ Wechat_official_clawler/
 ## 5. 快速开始
 
 1. 激活虚拟环境（可选）
+
    ```
    python -m venv venv
    .\venv\Scripts\Activate.ps1
    pip install -r requirements.txt
    ```
-2. 运行test.py
 
-   ```
-   python test.py
-   ```
-
-   这边建议test自己写，因为我是随便写的，函数都封装好在其他py里面了
-
-3. 启动 FastAPI 服务
+2. 启动 FastAPI 服务
 
    ```
    uvicorn app.main:app --host 0.0.0.0 --port 8010
@@ -97,7 +91,7 @@ Wechat_official_clawler/
 - 获取并持久化 cookies、token、user-agent 等会话信息
 - 搜索公众号并获取 fakeid
 - 获取公众号历史文章列表及详情
-- 通过公众号文章链接获取公众号fakeid以及文章内容（暂未更新图片获取）
+- 通过公众号文章链接获取公众号fakeid以及文章内容
 - 数据保存为 JSON 文件，便于后续分析
 - 已提供 FastAPI 服务化入口
 
@@ -115,17 +109,11 @@ Wechat_official_clawler/
 
 本项目采用 MIT License，详见 LICENSE 文件。
 
-## 11. 联系方式或作者信息
-
-- 作者：CutePigdaddy
-- 邮箱：2257601068@qq.com
-- GitHub: [CutePigdaddy](https://github.com/CutePigdaddy)
-
 ---
 
 ## 特别鸣谢
 
-本项目部分思路和实现参考了 [rachelos/we-mp-rss](https://github.com/rachelos/we-mp-rss) 项目，特此致谢！
+本项目改进于 [Wechat_official_clawler](https://github.com/CutePigdaddy/Wechat_official_clawler.git) 项目，特此致谢！
 
 ---
 
