@@ -10,6 +10,7 @@ from loguru import logger
 from app.services.storage import SessionStorage
 
 Session = requests.Session()
+Session.trust_env = False
 HOME_REFERER = (
     "https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token={token}"
 )
