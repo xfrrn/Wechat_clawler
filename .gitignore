@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+.venv/
+venv/
+
+cfg/cookies.json
+wx_login_qrcode.png
+appmsgpublish_result.json
+searchbiz_result.json
+
+.env
+.DS_Store
